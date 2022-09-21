@@ -1,29 +1,31 @@
-* {
+/* Style sheet that designs whole webpage*/
+/* universal selector*/ 
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* body selector to change background color to white*/
 body {
     background-color: #d9dcd6;
 }
-
+/* header to assign padding and blue and white to fonts and their backgrounds*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* h1 to change display of headers and make them 48px big*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* assigns "seo" a darker shade of white*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* header ul assigns and positions all clickable links on top banner for webpage*/
 header ul {
     list-style-type: none;
     padding-top: 15px;
@@ -32,21 +34,21 @@ header ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* ul li organizes the links to be next  to each other instead of stacked */
 header ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*assigns colors to each word in banner */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*changes color for every paragraph on page */
 p {
     font-size: 16px;
 }
-
+/* links and assigns size to photo with people around table */
 .hero { 
     height: 800px;
     width: 100%;
@@ -55,23 +57,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* positions first photo of three */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* positions the photo on the right side of paragraph */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* positions third photo on left of paragraph */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* condensed all benefit sizes into one, and sized them equally on right side of page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,18 +84,18 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* positions the benefit words on right side and colors them white */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* adds headers and colors them white on the right side of page */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* adds images for each benefit */
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -101,7 +103,7 @@ h3 {
 }
 
 
-
+/* sizes the paragraph for search engine optimization */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,7 +112,7 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sizes the paragraph for online reputation management */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,7 +121,7 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sizes paragraph for social media marketing */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -128,24 +130,24 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sizes photo for SEO image */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* sizes photo for ORM image */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* sizes photo for SMM image */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* headers for all paragraphs on the left side of page */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* sizes and places the footnote in center and staggers font between h2 and copyright */
 footer {
     padding: 30px;
     clear: both;
